@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.form input,
+button {
+  min-width: 300px;
+  height: 40px;
+  padding: 10px 15px;
+  border: 1px solid white;
+  text-align: center;
+  background: cadetblue;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: black;
+  outline: none;
+  border-radius: 5px;
+}
+button {
+  width: 195px;
+  cursor: pointer;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
